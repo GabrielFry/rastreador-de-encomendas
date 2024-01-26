@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastreio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estrelas.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+</head>
+<body>
+    <div class="container">
+        <div class="todoapp">
+            <h2>RASTREADOR DE ENCOMENDAS <img id="todoimg" src="images/icon.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="digite um código de rastreio">
+                <button onclick="rastrear()"><strong>Rastrear</strong></button>
+            </div>
+            <br>
+            <div id="output2"></div>
+            <div id="output"></div>
+            <div id="loader" style="display: none;">Rastreando...</div>      
+        </div> 
+        <button id="texto" onclick="copiartexto()">copiar</button> 
+        <section class="wrapper">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+        </section>
+<script src="script.js"></script>
+</body>
+</html>
